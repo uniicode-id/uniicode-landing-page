@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: ThaleahFat;
+    font-style: normal;
+    font-weight: 200 700;
+    font-display: swap;
+    src: url("./fonts/ThaleahFat.ttf") format("truetype");
+}
+
+@theme {
+    --font-pixel: "ThaleahFat", sans-serif;
+    --color-brand-100: #b6f600;
+    --color-brand-200: #a2db02;
+    --color-brand-shadow: #3b4a38;
+    --color-brand-dark: #101320;
+}
+
+::-webkit-scrollbar{
+    scrollbar-width: thin;
+    scrollbar-color: #b6f600 #101320;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #101320;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #b6f600;
+    border-radius: 20px;
+    border: 3px solid #101320;
+}
