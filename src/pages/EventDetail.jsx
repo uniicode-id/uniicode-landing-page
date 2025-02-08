@@ -7,6 +7,7 @@ import poster2 from '/poster.png';
 import speaker1 from '/speaker.png';
 import logoDisplayGif from '/logo_art_display.gif';
 import logoDisplayGif2 from '/logo_art_display_2.gif';
+import {Link} from 'react-router';
 
 const EventDetailPage = () => {
   const [isRegistered, setIsRegistered] = useState(false);
@@ -196,16 +197,13 @@ const EventDetailPage = () => {
                   </div>
                 </div>
                 
-                <button
-                  onClick={() => setIsRegistered(!isRegistered)}
-                  className={`w-full py-3 px-6 mb-4 font-bold uppercase transition-colors ${
-                    isRegistered
-                      ? 'bg-slate-700 text-slate-300'
-                      : 'bg-[#b6f600] text-black hover:bg-[#a5e000]'
-                  }`}
-                >
-                  {isRegistered ? 'Registered' : 'Register Now'}
-                </button>
+                <Link to="https://forms.gle/EBhAqg3mkwiwYERr8" target="_blank">
+                  <button
+                    className="w-full py-3 px-6 mb-4 font-bold uppercase transition-colors bg-[#b6f600] text-black hover:bg-[#a5e000]"
+                  >
+                    Register Now
+                  </button>
+                </Link>
                 
                 <button
                   className="w-full py-3 px-6 border-2 border-slate-600 hover:border-slate-500 transition-colors flex items-center justify-center gap-2">

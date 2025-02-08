@@ -2,6 +2,7 @@ import {ChevronLeft} from "lucide-react";
 import React from "react";
 import {Link} from 'react-router'
 import logo from '/logo.png'
+import speaker from '/speaker.png'
 import eventsData from '../data/events.json'
 
 function Events() {
@@ -27,9 +28,7 @@ function Events() {
       </div>
       <div className="relative -mt-20 flex justify-center items-center px-20 mb-20">
         <p className="w-2/3 text-4xl leading-relaxed mb-4 text-center">
-          Welcome to our pixelated universe! We are a passionate community dedicated to celebrating the art and culture
-          of pixel-based creativity. Our journey began with a simple love for retro aesthetics and has grown into a
-          vibrant platform where artists, gamers, and digital enthusiasts come together.
+          UNIICODE is a friendly programming Community folks! Where all people can share and learn from each other. We are a community of developers, designers, data scientists, and just about anyone who is interested in tech. We are a community of developers, designers, data scientists, and just about anyone who is interested in tech.
         </p>
       </div>
       <div className="container mx-auto px-4 relative">
@@ -46,7 +45,7 @@ function Events() {
               >
                 <div className="relative mb-4 overflow-hidden">
                   <img
-                    src={event.image}
+                    src={speaker}
                     alt={event.title}
                     className="w-full object-cover aspect-video"
                   />

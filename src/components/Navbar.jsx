@@ -9,15 +9,15 @@ function Navbar() {
           <Link to="/">
             <Button>Home</Button>
           </Link>
-          <Link to="/merch">
+          {/*<Link to="/merch">*/}
             <Button>Merch</Button>
-          </Link>
+          {/*</Link>*/}
           <Link to="/events">
             <Button>Events</Button>
           </Link>
-          <Link to="/projects">
+          {/*<Link to="/projects">*/}
             <Button>Projects</Button>
-          </Link>
+          {/*</Link>*/}
         </ul>
       </nav>
       <main>

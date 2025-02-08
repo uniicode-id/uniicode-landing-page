@@ -2,22 +2,20 @@
   "events": [
     {
       "id": "evt-001",
-      "slug": "uniicode-rebrand-tech-talk",
-      "title": "UNIICODE REBRAND - Tech Talk",
+      "slug": "uniicode-rebrand-conference",
+      "title": "UNIICODE REBRAND Conference \"Tips & Trick Menghadapi Tech Winter untuk Fresh Graduate\" ",
       "shortImage": "/api/placeholder/300/200",
       "date": "February 15, 2025",
       "time": "7:00 PM - 9:00 PM",
       "location": "Google Meet",
       "price": "FREE",
-      "capacity": "100",
-      "remainingSpots": "45",
-      "description": "Join us for an extraordinary evening celebrating the art of pixels! This exclusive exhibition brings together renowned pixel artists from around the globe, showcasing their finest works in an immersive digital environment.\n\nExperience the evolution of pixel art from its humble beginnings to its current renaissance in modern digital culture. Our exhibition features both static pieces and interactive installations that push the boundaries of what's possible with pixel-based creativity.",
+      "capacity": "200",
+      "remainingSpots": "200",
+      "description": "Acara ini bertujuan untuk membahas bagaimana fresh graduate dapat menghadapi tantangan dunia kerja setelah masa \"Tech Winter\". Kita akan berdiskusi mendalam tentang dampak Tech Winter terhadap industri IT, peluang karier yang muncul, serta strategi terbaik untuk tetap kompetitif di dunia teknologi! ",
       "highlights": [
-        "Live pixel art demonstrations",
-        "Interactive digital installations",
-        "Artist meet & greet sessions",
-        "Exclusive merchandise shop",
-        "Retro gaming corner"
+        "Memahami dampak Tech Winter pada industri IT & kebangkitan teknologi ",
+        "Mengenali peluang karier baru & strategi sukses bagi fresh graduate",
+        "Menjelajahi tren terbaru dalam dunia IT yang berkembang pasca Tech Winter"
       ],
       "speakers": [
         {
@@ -33,95 +31,16 @@
       ],
       "giveaways": [
         {
-          "title": "Limited Edition Pixel Art Print",
-          "description": "First 50 attendees",
+          "title": "Merchandise Exclusive T-shirt",
+          "description": "Best Attender",
           "icon": "Gift"
         },
         {
-          "title": "Digital Art Workshop Voucher",
-          "description": "Random lucky draw",
+          "title": "Merchandise Exclusive Lanyard",
+          "description": "Lucky one",
           "icon": "Gift"
         }
       ],
-      "prizes": [
-        {
-          "title": "Best Pixel Art Competition",
-          "value": "$500",
-          "description": "Judged by our guest artists",
-          "icon": "Trophy"
-        },
-        {
-          "title": "Community Choice Award",
-          "value": "$300",
-          "description": "Voted by event attendees",
-          "icon": "Trophy"
-        }
-      ]
-    },
-    {
-      "id": "evt-002",
-      "slug": "pixel-party-2024",
-      "title": "Pixel Party 2024",
-      "shortImage": "/api/placeholder/300/200",
-      "date": "March 15, 2024",
-      "time": "8:00 PM - 11:00 PM",
-      "location": "Digital Hub Space",
-      "price": "25",
-      "capacity": "150",
-      "remainingSpots": "75",
-      "description": "Get ready for the biggest pixel art party of the year!",
-      "highlights": [
-        "Live DJ Sets",
-        "Pixel Art Showcase",
-        "Digital Art Trading"
-      ],
-      "speakers": [],
-      "posters": [],
-      "giveaways": [],
-      "prizes": []
-    },
-    {
-      "id": "evt-003",
-      "slug": "retro-gaming-night",
-      "title": "Retro Gaming Night",
-      "shortImage": "/api/placeholder/300/200",
-      "date": "April 1, 2024",
-      "time": "6:00 PM - 10:00 PM",
-      "location": "Arcade Hub",
-      "price": "15",
-      "capacity": "80",
-      "remainingSpots": "30",
-      "description": "Step back in time with classic gaming!",
-      "highlights": [
-        "Classic Console Gaming",
-        "Tournament Competitions",
-        "Retro Game Trading"
-      ],
-      "speakers": [],
-      "posters": [],
-      "giveaways": [],
-      "prizes": []
-    },
-    {
-      "id": "evt-004",
-      "slug": "digital-art-exhibition",
-      "title": "Digital Art Exhibition",
-      "shortImage": "/api/placeholder/300/200",
-      "date": "April 20, 2024",
-      "time": "10:00 AM - 6:00 PM",
-      "location": "Modern Art Gallery",
-      "price": "20",
-      "capacity": "200",
-      "remainingSpots": "120",
-      "description": "Explore the future of digital art",
-      "highlights": [
-        "Interactive Installations",
-        "Artist Talks",
-        "Digital Art Sales"
-      ],
-      "speakers": [],
-      "posters": [],
-      "giveaways": [],
       "prizes": []
     }
   ]
